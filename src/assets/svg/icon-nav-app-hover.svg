@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <filter id="a" width="149.7%" height="163.9%" x="-24.9%" y="-31.9%" filterUnits="objectBoundingBox">
+            <feOffset dy="16" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="16"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd" filter="url(#a)" transform="translate(-171 -184)">
+        <path fill="#F86E21" fill-opacity=".3" fill-rule="nonzero" d="M187 216c8.837 0 16-7.163 16-16s-7.163-16-16-16-16 7.163-16 16 7.163 16 16 16zm0-1c-8.284 0-15-6.716-15-15 0-8.284 6.716-15 15-15 8.284 0 15 6.716 15 15 0 8.284-6.716 15-15 15z"/>
+        <path fill="#F86E21" fill-rule="nonzero" d="M183 193h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-8a2 2 0 0 1-2-2v-10a2 2 0 0 1 2-2zm0 1a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-10a1 1 0 0 0-1-1h-8z"/>
+        <g fill="#F86E21" fill-rule="nonzero">
+            <path fill-opacity=".3" d="M185 199.146v-.646a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v.646a.828.828 0 0 1 .586 1.414l-1.879 1.879a1 1 0 0 1-1.414 0l-1.879-1.88a.828.828 0 0 1 .586-1.413zm.414 1L187 201.73l1.586-1.585H188V198.5h-2v1.646h-.586z"/>
+            <path d="M185.5 204h3a.5.5 0 0 0 0-1h-3a.5.5 0 0 0 0 1z"/>
+        </g>
+        <path stroke="#F86E21" stroke-linecap="round" d="M186 195.5h2"/>
+    </g>
+</svg>

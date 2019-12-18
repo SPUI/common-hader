@@ -1,0 +1,97 @@
+{
+  "config": {
+    "title": "Common Header",
+    "description": "My awesome app using docz",
+    "menu": [],
+    "version": "0.0.1",
+    "repository": false,
+    "native": false,
+    "codeSandbox": true,
+    "themeConfig": {},
+    "separator": "-",
+    "typescript": false,
+    "theme": "/Users/guyunxiang/Sparkpool/SparkUI/common-header/node_modules/docz-theme-umi/es/index.js",
+    "plugins": [
+      {},
+      {},
+      {},
+      {},
+      {},
+      {},
+      {}
+    ]
+  },
+  "props": [
+    {
+      "key": "src/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "CommonHader",
+          "methods": [],
+          "actualName": "CommonHader"
+        }
+      ]
+    },
+    {
+      "key": "src/WebHeader/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "WebHeader",
+          "methods": [],
+          "actualName": "WebHeader"
+        }
+      ]
+    },
+    {
+      "key": "src/components/Link.js",
+      "value": [
+        {
+          "description": "多链 web 站下, history 跳转 todo\n@param {String} to       跳转的路径\n@param {React Node} children 内容",
+          "displayName": "Link",
+          "methods": [],
+          "actualName": "Link"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "key": "src/index.mdx",
+      "value": {
+        "name": "Home",
+        "route": "/",
+        "order": -1,
+        "sidebar": true,
+        "id": "6576455a124f9aaefd860597f03a8fe4",
+        "filepath": "src/index.mdx",
+        "link": "",
+        "slug": "src-index",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "commonhader-component",
+            "depth": 1,
+            "value": "CommonHader Component"
+          },
+          {
+            "slug": "dark-commonhader-not-login",
+            "depth": 2,
+            "value": "Dark CommonHader not login"
+          },
+          {
+            "slug": "dark-commonhader-have-login",
+            "depth": 2,
+            "value": "Dark CommonHader have login"
+          },
+          {
+            "slug": "normal-commonhader",
+            "depth": 2,
+            "value": "Normal CommonHader"
+          }
+        ]
+      }
+    }
+  ]
+}

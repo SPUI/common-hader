@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <filter id="a" width="149.7%" height="179.3%" x="-24.9%" y="-39.7%" filterUnits="objectBoundingBox">
+            <feOffset dy="16" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="16"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd" filter="url(#a)">
+        <circle cx="16" cy="16" r="15.5" stroke="#EDEFF5"/>
+        <rect width="11" height="13" x="10.5" y="9.5" stroke="#363E59" rx="2"/>
+        <g stroke="#ACB1C2">
+            <path d="M14.5 14.5v1.146H14a.328.328 0 0 0-.232.56l1.878 1.879a.5.5 0 0 0 .708 0l1.878-1.879a.328.328 0 0 0-.232-.56h-.5V14.5a.5.5 0 0 0-.5-.5h-2a.5.5 0 0 0-.5.5z"/>
+            <path stroke-linecap="round" d="M14.5 19.5h3"/>
+        </g>
+        <path stroke="#363E59" stroke-linecap="round" d="M15 11.5h2"/>
+    </g>
+</svg>

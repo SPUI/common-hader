@@ -1,0 +1,57 @@
+---
+name: Home
+route: /
+order: -1
+sidebar: true
+---
+
+import CommonHader from './';
+
+# CommonHader Component
+
+## Dark CommonHader not login
+
+<div id="1" key="1">
+  <CommonHader
+    theme="dark"
+    userInfo={{}}
+    logout={() => {}}
+  />
+</div>
+
+## Dark CommonHader have login
+
+<div id="2" key="2">
+  <CommonHader
+    theme="dark"
+    userInfo={{
+    "id":64135,
+      "name":"132****0633",
+      "type":0,
+      "region":"86",
+      "created_at":"2018-10-16T11:12:50.000+0000",
+      "subscribe":1,
+      "email":"470395814@qq.com",
+      "hiddenPhone":"",
+      "avatar":null,
+      "havePwd":true,
+      "haveAuthenticator":true,
+      "unionId":"oDlNe0urGTsen8dorvQyDVGRFL2s",
+      "riskLevel":0,
+      "ip":"172.16.131.3",
+      "lastLogin":"2019-12-11T13:49:09.000Z"
+    }}
+    logout={() => {
+      alert('have logout')
+    }}
+  />
+</div>
+
+## Normal CommonHader
+
+<div id="3" key="3">
+  <CommonHader
+    userInfo={{}}
+    logout={() => {}}
+  />
+</div>
